@@ -1,0 +1,7 @@
+id_rsa.*
+id_rsa.*.pub
+ssh-config
+known_hosts
+terraform.tfvars
+*.tfstate
+*.tfstate.backup

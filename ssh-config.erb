@@ -1,0 +1,10 @@
+Host *
+	IdentityFile <%= base_path %>/id_rsa.terraform
+	UserKnownHostsFile <%= base_path %>/known_hosts
+	StrictHostKeyChecking no
+
+<% for name, ip in names_with_ips %>
+Host <%= name %>
+	User core
+	Hostname <%= ip %>
+<% end %>

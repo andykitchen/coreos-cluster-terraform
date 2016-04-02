@@ -1,0 +1,5 @@
+name = "test-coreos-cluster"
+key_name = "test-coreos-cluster-key"
+region = "ap-southeast-2"
+az = "ap-southeast-2b"
+worker_instance_type = "m4.large"
